@@ -6,7 +6,7 @@ const Footer = () => {
             <footer >
                 <div className='py-10 md:p-20 flex justify-center items-center flex-col text-para'>
                     <p>Copyright © 2023 Astroship. All rights reserved.</p>
-                    <p className='text-xs'>Made by Web3Templates</p>
+                    <p className='text-xs'>Made by Nabin Bhandari</p>
                 </div>
             </footer>
         </div>

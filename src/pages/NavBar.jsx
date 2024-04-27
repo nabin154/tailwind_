@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,10 +13,10 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
 
                 <div className="flex-shrink-0">
-                    <a href="#" className="text-gray-800  ">
+                    <NavLink to={'/'} className="text-gray-800  ">
                         <span className='text-xl font-bold'>Astro</span>
                         <span className='text-xl'>ship</span>
-                    </a>
+                    </NavLink>
                 </div>
 
 
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <option value="3">Feature 3</option>
                     </select>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Pricing</a>
-                    <a href="#" className="text-gray-800 hover:text-gray-300">About</a>
+                    <NavLink to={'/about'} className="text-gray-800 hover:text-gray-300">About</NavLink>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Blog</a>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Contact</a>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Pro Version
