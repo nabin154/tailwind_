@@ -29,7 +29,7 @@ const Navbar = () => {
                     </select>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Pricing</a>
                     <NavLink to={'/about'} className="text-gray-800 hover:text-gray-300">About</NavLink>
-                    <a href="#" className="text-gray-800 hover:text-gray-300">Blog</a>
+                    <NavLink to={'/blog'} className="text-gray-800 hover:text-gray-300">Blog</NavLink>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Contact</a>
                     <a href="#" className="text-gray-800 hover:text-gray-300">Pro Version
                         <span className='bg-primary-200 text-xs px-2 text-white  ml-1 rounded-xl '>NEW</span></a>

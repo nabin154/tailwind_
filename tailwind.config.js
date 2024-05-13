@@ -15,6 +15,8 @@ export default {
         },
         body: '#e6e6e6',
         para:'#7e8a9c',
+        left:'#000000',
+        right:'#130F40'
         
       }
     },

@@ -12,7 +12,7 @@ const {showToast}=  useToast();
     }
     return (
         <>
-            <div className='bg-body py-20 px-7 md:px-10'>
+            <div className=' py-20 px-7 md:px-10'>
                 <div className=' flex  '>
                     <div className='w-100 md:w-1/2'>
                         <h1 className='text-5xl md:text-7xl font-bold'>
